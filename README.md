@@ -1,1 +1,2 @@
 # Library-Fine
+This C# program calculates a library fine based on the return date of a book. The `libraryFine` function compares the actual return date (`d1`, `m1`, `y1`) with the expected date (`d2`, `m2`, `y2`) and applies fines: 10,000 if returned in a later year, 500 per late month if in the same year, 15 per late day if in the same month and year, and 0 if returned on time. The `Main` method reads the dates from input, calls the function, and outputs the fine.
